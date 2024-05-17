@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    background-color: rgb(270, 70,70);
+}
+
+.right {
+    background-color: rgb(235, 235, 235);
+}
+
+::selection {
+    color: white;
+    background: red;
+}
+
+
+@media screen and (max-width: 350px) {
+    
+    .left .text{
+        top: 10%;
+    }
+
+    .btns .btn1 {
+        font-size: 14px;
+    }
+    
+    .btns:last-child button {
+        margin-top: 1rem;
+    }
+
+}
